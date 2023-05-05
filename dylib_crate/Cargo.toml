@@ -1,0 +1,11 @@
+[package]
+name = "dylib_crate"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "dylib_crate"
+crate_type = ["dylib"]
+
+[dependencies]
+ctor = "0.1.26"

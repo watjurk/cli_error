@@ -1,0 +1,12 @@
+[package]
+name = "cli_app"
+version = "0.1.0"
+edition = "2021"
+
+# [workspace]
+# members = [
+#   "dylib_crate"
+# ]
+
+[dependencies]
+dylib_crate = { path = "dylib_crate" }
